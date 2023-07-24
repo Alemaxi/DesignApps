@@ -11,3 +11,11 @@ new FazerBolo(
     new BaunilhaChocolateSimplesBuilder(),
     new ChocolateMorangoChantiliBuilder(),
     new SimplesMaracujaAmericanoBuilder()).PrepararBolos();
+
+Console.WriteLine("\n");
+
+new SimuladorMeiotransporte().ExibirMeiosDeTransporte();
+
+Console.WriteLine("\n");
+
+new ConversorDeEnenergias().Converter();
