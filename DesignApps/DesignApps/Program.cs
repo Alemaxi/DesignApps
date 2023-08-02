@@ -19,3 +19,12 @@ new SimuladorMeiotransporte().ExibirMeiosDeTransporte();
 Console.WriteLine("\n");
 
 new ConversorDeEnenergias().Converter();
+
+Console.WriteLine("\n");
+
+new GeradorTextual().gerarArquivos();
+
+
+Console.WriteLine("\n");
+
+new EmpresaXPTO().CalcularResultados();
